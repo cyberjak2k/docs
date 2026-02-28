@@ -96,7 +96,7 @@ extra:
     # - name: 日本語
     #   link: "javascript:translateTo('japanese');"
     #   lang: ja
-    - name: 中文
+    - name: Chinese
       link: "https://micromake.github.io"
       lang: zh
       
@@ -168,7 +168,7 @@ markdown_extensions:
 # Page tree
 nav:
   # - Home: https://micromake.github.io
-  - 导览: index.md
+  - index.md
   # - DIY套件: 
   #           - 三角洲3D打印机:
   #             - delta/1/1.md
@@ -179,4 +179,5 @@ nav:
   #             - delta/6/6.md
   #             - delta/7/7.md
   #             - delta/8/8.md
+
 
