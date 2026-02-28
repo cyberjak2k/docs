@@ -1,0 +1,182 @@
+# Copyright (c) Zensical LLC <https://zensical.org>
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to
+# deal in the Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+# sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+# IN THE SOFTWARE.
+
+# Project information
+site_name: Micromake Documentation
+site_url: https://micromake.github.io
+# site_description: >-
+#   Write your documentation in Markdown and create a professional static site in
+#   minutes – searchable, customizable, in 60+ languages, for all devices
+
+# Repository
+repo_name: Micromake Documentation
+repo_url: https://github.com/micromake/micromake.github.io
+edit_uri: edit/main/docs
+
+# Copyright
+copyright: Copyright &copy; 2026 Micromake
+
+# Configuration
+theme:
+  language: en
+  name: material
+  # custom_dir: overrides
+  features:
+    - announce.dismiss
+    - content.action.edit
+    # - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.footnote.tooltips
+    - content.tabs.link
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.path
+    - navigation.sections
+    # - navigation.tabs
+    - navigation.top
+    - search.highlight
+    
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: lucide/sun-moon
+        name: Switch to light mode
+       
+  favicon: assets/logo.png
+  logo: assets/logo.png
+  icon:
+    tag:
+      default: lucide/hash
+
+extra_css:
+  - assets/stylesheets/extra.css
+  - assets/stylesheets/extra2.css
+  - assets/stylesheets/customize.css
+  - assets/stylesheets/ziti.css
+
+
+# Plugins
+plugins:
+  - search
+  - tags
+
+# Additional configuration
+extra:
+  alternate:
+    # - name: English
+    #   link: "javascript:translateTo('english');"
+    #   # link: "https://micromake.github.io/"
+    #   lang: en
+    # - name: Français
+    #   link: "javascript:translateTo('french');"
+    #   lang: fr
+    # - name: 한국어
+    #   link: "javascript:translateTo('korean');"
+    #   lang: kr
+    # - name: 日本語
+    #   link: "javascript:translateTo('japanese');"
+    #   lang: ja
+    - name: 中文
+      link: "https://micromake.github.io"
+      lang: zh
+      
+  # homepage: https://zensical.org
+  scope: /
+  annotate:
+    json: [.s2]
+  status:
+    new: Recently added
+    deprecated: Deprecated
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/micromake
+  #   - icon: fontawesome/brands/discord
+  #     link: https://discord.com/invite/hqXRNq9CjT
+  #   - icon: fontawesome/brands/x-twitter
+  #     link: https://x.com/zensical
+  tags:
+    default: default
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:zensical.extensions.emoji.to_svg
+      emoji_index: !!python/name:zensical.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: zensical
+      repo: zensical
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  # - Home: https://micromake.github.io
+  - 导览: index.md
+  # - DIY套件: 
+  #           - 三角洲3D打印机:
+  #             - delta/1/1.md
+  #             - delta/2/2.md
+  #             - delta/3/3.md
+  #             - delta/4/4.md
+  #             - delta/5/5.md
+  #             - delta/6/6.md
+  #             - delta/7/7.md
+  #             - delta/8/8.md
+
