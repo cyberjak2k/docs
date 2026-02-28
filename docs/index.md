@@ -1,5 +1,5 @@
 ---
-title: 导览
+title: Get started
 icon: lucide/rocket
 ---
 
@@ -9,10 +9,10 @@ icon: lucide/rocket
     ---
 
     <ul>
-      <li>搜索关键词以打开文章。</li>
-      <li>通过主题和目录以打开文章。</li>
-      <li>移动端 请点击左上角图标选择主题和文章。</li>
-      <li>Mac/PC端 请在上方标签栏选择主题 在左侧目录选择文章。</li>
-      <!-- <li>如遇网页卡顿/打开文章后无法显示图片的情况，请使用<strong>更换网络</strong>。</li>    -->
+      <li>Search for keywords to open articles.</li>
+      <li>Go through the topic and table of contents to open the article.</li>
+      <li>Mobile Please click the icon in the upper left corner to select topics and articles.</li>
+      <li>Mac/PC Select Topic in the tab bar at the top Select Article in the left table of contents.</li>
+
    
 </div>
