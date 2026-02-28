@@ -11,9 +11,10 @@ icon: lucide/rocket
     <ul>
       <li>Search for keywords to open articles.</li>
       <li>Browse topics and table of contents to open articles.</li>
-      <li>>On mobile, please click the icon in the upper left corner to select topics and articles.</li>
-      <li>On Mac/PC, select a language in the top tab bar, then select an article in the left table of contents.</li>
+      <li>Mobile: Tap the icon in the top-left corner to select language and articles.</li>
+      <li>Mac/PC: Select a language in the top tab bar, then choose an article from the left sidebar.</li>
 
    
 
 </div>
+
