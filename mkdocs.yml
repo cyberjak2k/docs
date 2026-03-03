@@ -171,7 +171,7 @@ nav:
   # - Home: https://micromake.github.io
   - index.md
   - DIY Kit: 
-            - Delta 3D printer:
+            - Venture D300:
               - delta/1/1.md
               - delta/2/2.md
               - delta/3/3.md
@@ -180,6 +180,7 @@ nav:
   #             - delta/6/6.md
   #             - delta/7/7.md
   #             - delta/8/8.md
+
 
 
 
