@@ -61,6 +61,20 @@ theme:
       toggle:
         icon: lucide/sun-moon
         name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: lucide/sun
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: light blue
+      toggle:
+        icon: lucide/moon-star
+        name: Switch to system preference
        
   favicon: assets/logo.png
   logo: assets/logo.png
@@ -83,19 +97,6 @@ plugins:
 # Additional configuration
 extra:
   alternate:
-    # - name: English
-    #   link: "javascript:translateTo('english');"
-    #   # link: "https://micromake.github.io/"
-    #   lang: en
-    # - name: Français
-    #   link: "javascript:translateTo('french');"
-    #   lang: fr
-    # - name: 한국어
-    #   link: "javascript:translateTo('korean');"
-    #   lang: kr
-    # - name: 日本語
-    #   link: "javascript:translateTo('japanese');"
-    #   lang: ja
     - name: 中文
       link: "https://micromake.github.io"
       lang: zh
@@ -173,12 +174,13 @@ nav:
             - Delta 3D printer:
               - delta/1/1.md
               - delta/2/2.md
-  #             - delta/3/3.md
+              - delta/3/3.md
   #             - delta/4/4.md
   #             - delta/5/5.md
   #             - delta/6/6.md
   #             - delta/7/7.md
   #             - delta/8/8.md
+
 
 
 
