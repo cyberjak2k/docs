@@ -97,7 +97,7 @@ plugins:
 # Additional configuration
 extra:
   alternate:
-    - name: 中文
+    - name: Chinese
       link: "https://micromake.github.io"
       lang: zh
       
@@ -175,11 +175,12 @@ nav:
               - delta/1/1.md
               - delta/2/2.md
               - delta/3/3.md
-  #             - delta/4/4.md
+              - delta/4/4.md
   #             - delta/5/5.md
   #             - delta/6/6.md
   #             - delta/7/7.md
   #             - delta/8/8.md
+
 
 
 
