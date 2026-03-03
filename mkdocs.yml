@@ -40,7 +40,7 @@ theme:
   # custom_dir: overrides
   features:
     - announce.dismiss
-    - content.action.edit
+    # - content.action.edit
     # - content.action.view
     - content.code.annotate
     - content.code.copy
@@ -180,6 +180,7 @@ nav:
   #             - delta/6/6.md
   #             - delta/7/7.md
   #             - delta/8/8.md
+
 
 
 
