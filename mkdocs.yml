@@ -147,7 +147,7 @@ markdown_extensions:
 nav:
   - index.md
   - DIY Kit: 
-            - Venture D300:
+            - Venture Delta:
               - delta/1/1.md
               - delta/2/2.md
               - delta/3/3.md
@@ -155,6 +155,7 @@ nav:
               - delta/5/5.md
               - delta/6/6.md
               - delta/7/7.md
+
 
 
 
